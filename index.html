@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince Kumar Varshney | Student Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .gradient-text { background: linear-gradient(to right, #60a5fa, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .card-hover:hover { transform: translateY(-10px); transition: 0.3s; box-shadow: 0 20px 25px -5px rgba(59, 130, 246, 0.1); }
+        .glow-border { border: 1px solid rgba(59, 130, 246, 0.5); box-shadow: 0 0 15px rgba(59, 130, 246, 0.2); }
+    </style>
+</head>
+<body class="bg-[#0b0f1a] text-gray-200 font-sans leading-relaxed">
+
+    <header class="min-h-screen flex flex-col justify-center items-center text-center p-6 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-blue-900/20 via-black to-black">
+        <div class="mb-6 p-1 rounded-full bg-gradient-to-r from-blue-500 to-purple-500">
+           <img src="profile1.jpeg" alt="Prince Kumar Varshney" class="w-48 h-48 rounded-full border-4 border-black object-cover object-top">
+        </div>
+        <h1 class="text-6xl font-extrabold mb-4 gradient-text">Prince Kumar Varshney</h1>
+        <p class="text-2xl text-blue-400 font-medium mb-2 uppercase tracking-widest">Aspiring Data Scientist & ML Engineer</p>
+        <p class="text-lg text-gray-400 max-w-2xl mb-8">Final year B.Tech student at JSS Noida. Focused on solving real-world problems through Data Science and Algorithmic excellence.</p>
+        <div class="flex gap-6">
+            <a href="https://github.com/princev18" target="_blank" class="bg-gray-800 p-4 rounded-full hover:bg-blue-600 transition shadow-lg"><i class="fab fa-github text-2xl"></i></a>
+            <a href="mailto:varshneyprince880@gmail.com" class="bg-gray-800 p-4 rounded-full hover:bg-blue-600 transition shadow-lg"><i class="fas fa-envelope text-2xl"></i></a>
+        </div>
+    </header>
+
+    <section class="py-12 bg-[#111827] border-y border-gray-800">
+        <div class="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 px-6">
+            <div class="text-center p-6 rounded-xl bg-gray-900 border border-gray-800 glow-border">
+                <p class="text-5xl font-black text-blue-500 mb-1">100+</p>
+                <p class="text-gray-400 text-xs uppercase tracking-tighter">DSA Problems Solved</p>
+            </div>
+            <div class="text-center p-6 rounded-xl bg-gray-900 border border-gray-800">
+                <p class="text-5xl font-black text-purple-500 mb-1">02</p>
+                <p class="text-gray-400 text-xs uppercase tracking-tighter">ML Projects</p>
+            </div>
+            <div class="text-center p-6 rounded-xl bg-gray-900 border border-gray-800">
+                <p class="text-2xl font-bold text-green-500 mb-1">JSS NOIDA</p>
+                <p class="text-gray-400 text-xs uppercase tracking-tighter">B.Tech (Data Science)</p>
+            </div>
+            <div class="text-center p-6 rounded-xl bg-gray-900 border border-gray-800">
+                <p class="text-xl font-bold text-yellow-500 mb-1 uppercase">MG Polytechnic</p>
+                <p class="text-gray-400 text-xs uppercase tracking-tighter">Hathras Foundation</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-6 max-w-7xl mx-auto">
+        <h2 class="text-4xl font-bold mb-16 text-center"><span class="border-b-4 border-blue-500 pb-2">Innovation & Analytics Lab</span></h2>
+        
+        <div class="space-y-20">
+            <div class="flex flex-col md:flex-row gap-10 items-center bg-gray-900/50 p-8 rounded-3xl border border-gray-800 card-hover">
+                <div class="md:w-1/2">
+                    <h3 class="text-3xl font-bold text-blue-400 mb-4">Customer Churn Prediction (CCP)</h3>
+                    <ul class="space-y-3 text-gray-300 mb-6">
+                        <li><i class="fas fa-check-circle text-blue-500 mr-2"></i> Processed 10k records using <b>NumPy</b> & <b>Pandas</b>.</li>
+                        <li><i class="fas fa-check-circle text-blue-500 mr-2"></i> Visualized insights with <b>Seaborn</b> & <b>Matplotlib</b>.</li>
+                        <li><i class="fas fa-check-circle text-blue-500 mr-2"></i> Built predictive models for business retention.</li>
+                    </ul>
+                    <a href="https://github.com/princev18/Churn-Modelling-Dataset" target="_blank" class="text-blue-500 font-bold hover:underline">View Repository →</a>
+                </div>
+                <div class="md:w-1/2 rounded-2xl overflow-hidden border border-gray-700">
+                    <img src="ccp.jpeg" alt="Churn Visualization" class="w-full h-64 object-cover" onerror="this.src='https://via.placeholder.com/600x400/111827/FFFFFF?text=CCP+Visualization'">
+                </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row-reverse gap-10 items-center bg-gray-900/50 p-8 rounded-3xl border border-gray-800 card-hover">
+                <div class="md:w-1/2">
+                    <h3 class="text-3xl font-bold text-purple-400 mb-4">Insurance Cost Prediction</h3>
+                    <ul class="space-y-3 text-gray-300 mb-6">
+                        <li><i class="fas fa-check-circle text-purple-500 mr-2"></i> Regression analysis for premium forecasting.</li>
+                        <li><i class="fas fa-check-circle text-purple-500 mr-2"></i> Tech: Scikit-Learn, <b>PowerBI</b> logic, Data Scaling.</li>
+                        <li><i class="fas fa-check-circle text-purple-500 mr-2"></i> Accuracy: 86% on test datasets.</li>
+                    </ul>
+                    <a href="https://github.com/princev18/Medical-Cost-Prediction" target="_blank" class="text-purple-500 font-bold hover:underline">View Repository →</a>
+                </div>
+                <div class="md:w-1/2 rounded-2xl overflow-hidden border border-gray-700">
+                    <img src="icp.jpeg" alt="Insurance Analytics" class="w-full h-64 object-cover" onerror="this.src='https://via.placeholder.com/600x400/111827/FFFFFF?text=Insurance+Analytics'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-[#0d1117] border-t border-gray-800">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16">
+            <div>
+                <h2 class="text-3xl font-bold mb-8 text-blue-400"><i class="fas fa-graduation-cap mr-4"></i>Academic Journey</h2>
+                <div class="border-l-2 border-blue-500 pl-6 space-y-8">
+                    <div>
+                        <h4 class="text-xl font-bold">B.Tech - CS (Data Science)</h4>
+                        <p class="text-gray-400">JSS Academy of Technical Education, Noida</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-bold">Diploma in IT (Lateral Entry)</h4>
+                        <p class="text-gray-400 uppercase">MG Polytechnic Hathras, Uttar Pradesh</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-3xl font-bold mb-8 text-purple-400"><i class="fas fa-tools mr-4"></i>Skill Set</h2>
+                <div class="flex flex-wrap gap-4">
+                    <span class="bg-gray-800 px-4 py-2 rounded-lg border border-gray-700">Python</span>
+                    <span class="bg-gray-800 px-4 py-2 rounded-lg border border-gray-700">Machine Learning</span>
+                    <span class="bg-gray-800 px-4 py-2 rounded-lg border border-gray-700">PowerBI</span>
+                    <span class="bg-gray-800 px-4 py-2 rounded-lg border border-gray-700">NumPy & Pandas</span>
+                    <span class="bg-gray-800 px-4 py-2 rounded-lg border border-gray-700">DSA (100+ Solved)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-20 text-center bg-black">
+        <p class="text-gray-500 mb-4">© 2026 Prince Kumar Varshney | JSS Noida</p>
+        <p class="text-xl font-mono text-blue-500">+91 6395881633</p>
+    </footer>
+
+</body>
+</html>
